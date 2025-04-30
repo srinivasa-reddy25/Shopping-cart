@@ -1,0 +1,134 @@
+.productCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 260px;
+    height: 320px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+.productCard:hover{
+    transform: scale(1.01);
+}
+.imageContainer{
+    width: 100%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px 10px 0 0;
+}
+.imageContainer img{
+    width: 100%;
+    height: 100%;
+}
+.productDiscription{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+    padding: 10px;
+    margin-top: 8px;
+    margin-left: 10px;
+    gap: 5px;
+}
+.productDiscription h2{
+    align-items: flex-start;
+    font-size: 1.1em;
+    font-weight: bold;
+    /* color: #621212; */
+    text-align: start;
+
+}
+.productDiscription p{
+    font-size: 0.9em;
+    color: #555;
+    text-align: start;
+}
+.productPrice{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+}
+.productPrice h3{
+    font-size: 1.1em;
+    margin: 0;
+    color: #333;
+    
+}
+.addButton{
+    height: 40px;
+    width: 40px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    /* display: none; */
+
+}
+.addButton:hover{
+    background-color: #0056b3;
+}
+
+.anotherButton{
+    background-color: #dcdedf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 5px 3px;
+    border-radius: 18px;
+    /* font-size: 1.5em; */
+}
+.secondaddButton{
+    height: 28px;
+    width: 28px;
+    background-color:#ffffff;
+    color: rgb(82, 169, 241);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    border-width: 0px;
+
+}
+.quantity{
+    font-size: 1.1em;
+}
+.secondsubButton{
+    height: 28px;
+    width: 28px;
+    background-color:#ffffff;
+    color: rgb(82, 169, 241);
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    border-width: 0px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    padding-bottom: 4px;
+}
+/* .productPrice{
+
+} */
