@@ -1,23 +1,26 @@
-# React + Vite
+# Shopping Cart Application:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple shopping cart application built with React and Vite. This app allows users to browse products, add them to the cart, adjust quantities, and view the total price.
 
-Currently, two official plugins are available:
+## Features:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Browse a list of tech products.
+- Add products to the cart.
+- Adjust product quantities in the cart.
+- View the total price of items in the cart.
+- Responsive and user-friendly design.
 
+## Project Structure:
 
- <div className="Cart">
-        <h2>Cart</h2>
-        <ul className="cart-list">
-          {cart.map((product)=>{
-            return <Cartitem key={product.id} cart={product} addToCart={addToCart} removeFromCart={removeFromCart} />
-          })}
-          <li className='TotalPrice'>
-            <p>Total Price: {cart.reduce((total, product) => total + product.price, 0)}</p>
-          </li>
-          {/* <Cartitem cart={products[0]} addToCart={addToCart} removeFromCart={removeFromCart} quantity={numberOfItemsofspecificProduct(products[0].id)}/> */}
-        </ul>
-      </div>
-      
+The project is structured as follows:
+
+- `src/`: Contains the source code for the application.
+  - `components/` : Contains individual components.
+    - `NavBar/`: Navbar component.
+    - `ProductList/`: Product listing component.
+    - `Cartitem/`: Cart item component.
+    - `TopContent/`: Top content component.
+  - `App.jsx`: The main application component.
+  - `index.css`: Global styles for the app.
+  - `main.jsx`: Entry point for the app.
+  
