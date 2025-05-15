@@ -15,55 +15,5 @@
 }
 
 
-.Cart{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    width: 500px;
-    background-color: #ffffff;
-    padding: 20px;
-    margin: 0 auto; 
-    position: fixed;
-    top: 100px;
-    left: 50%;
-    transform: translateX(-50%);
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1000;
-}
-
-
-.cart-list{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-
-.TotalPrice{
-    font-size: 20px;
-    font-weight: bold;
-    list-style-type: none;
-    align-self: flex-end;
-}
-
-.emptyCart{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.emptyCart h2{
-    font-size: 30px;
-    font-weight: bold;
-}
-.emptyCart p{
-    font-size: 20px;
-    font-weight: normal;
-}
 
 
